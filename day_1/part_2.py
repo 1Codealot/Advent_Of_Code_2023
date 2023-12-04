@@ -1,5 +1,3 @@
-import re
-
 def getNumber(line:str) -> int:
     first = last = 0
     for x in range(len(line)):
